@@ -129,39 +129,6 @@ main {
     align-items: center;
 }
 
-/*
-header {
-    animation-name: topdown;
-    animation-duration: 700ms;
-    animation-fill-mode: forwards; /* terminar com as propriedades da animação no 100% e manter essas propriedades, sem retornar ao estado original do header
-    /* animation-direction: reverse;
-    animation-delay: 200ms;
-    animation-timing-function: ease; /* ease já é o valor padrão
-    animation-iteration-count: infinite;
-    animation-play-state: paused;
-}
-
-header:hover {
-    animation-play-state: running;
-}
-
-@keyframes topdown {
-    0% {
-        opacity: 0;
-        transform: translateY(-15px);
-    }
-    
-    50% {
-        opacity: 1;
-    }
-    
-    100% {
-        opacity: 0;
-        transform: translateY(0);
-    }
-}
-*/
-
 /* quando carregar a página, o header vir de cima para baixo e o main de baixo para cima aparecendo lentamente e suave */
 
 @keyframes topdown {
